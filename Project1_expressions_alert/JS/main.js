@@ -1,6 +1,8 @@
-var Family = "Simpsons", Dad="Hommer", Mum="Marge", Daughter="Lisa", Son="Bart";
-    
-document.write(Son);
+var blues = "I have the blues.";
+
+var blues = blues.fontcolor("red");
+
+document.write(blues);
 
 
 
