@@ -1,3 +1,3 @@
-var A ="This is a String" + "and this is continuation of the string."
+var B ="This is a String" + " and this is continuation"
 
-document.write(A)
+document.write(B)
