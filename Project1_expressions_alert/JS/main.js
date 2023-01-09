@@ -1,8 +1,3 @@
-var blues = "I have the blues.";
+var A ="This is a String";
 
-var blues = blues.fontcolor("red");
-
-document.write(blues);
-
-
-
+document.write(A)
