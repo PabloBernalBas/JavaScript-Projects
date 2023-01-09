@@ -1,3 +1,2 @@
-var B ="This is a String" + " and this is continuation"
-
+var B ="String" + " and continuation"
 document.write(B)
