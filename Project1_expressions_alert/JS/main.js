@@ -11,3 +11,5 @@ document.write('<font color="red"> blue</font>');//using method to give color to
 document.write("<br>");//break to make cleaner look
 
 document.write(4*4)//giving value to the expression to result in a value
+
+onclick="displayDate()">The time is?
