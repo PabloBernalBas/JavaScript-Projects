@@ -14,6 +14,6 @@ document.write(4*4)//giving value to the expression to result in a value
 
 function myFunction() {
     var sentence = "I am learning";
-    sentence += "a lot from this book!";
+    sentence += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
