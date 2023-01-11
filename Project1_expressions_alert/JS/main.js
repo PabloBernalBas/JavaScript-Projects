@@ -1,7 +1,7 @@
 var Family = "Sympsons", Dad = "Hommer", Mom = "Marge";
 document.write(Mom)
-break
+break;
 var blues = "I have the blues";
 document.write('<font color="red"> blue</font>');
-break
+break;
 document.write(3+3)
