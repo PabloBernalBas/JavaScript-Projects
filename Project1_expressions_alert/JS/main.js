@@ -1,3 +1,5 @@
+alert("JS Assignment")
+
 var Family = "Sympsons", Dad = "Hommer", Mom = "Marge";
 document.write(Mom)
 
