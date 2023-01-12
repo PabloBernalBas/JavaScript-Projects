@@ -3,6 +3,8 @@ function addition_Function() {
     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
 }
 
+document.write("<br>");//break to make cleaner look
+
 function subtraction_Function() {
     var subtraction = 5 - 2;
     document.getElementById("Math").innerHTML = "5 - 2 = " + subtraction;
