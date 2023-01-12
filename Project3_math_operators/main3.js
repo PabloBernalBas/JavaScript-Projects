@@ -28,10 +28,19 @@ function modulus_Operator() {
     document.getElementById("Math").innerHTML = " " + simple_Math;
 }
 
-var X = 5;
-X++;
-return(X);
+function increment(){
+    var X = 5;
+    X++;
+    document.write(X);
+}
 
-var Y = 5;
-Y--;
-document.write(Y);
+function decrement(){
+    var Y = 5;
+    Y--;
+    document.write(Y);
+}
+
+
+
+
+window.alert(Math.random().toFixed(4) * 100)
