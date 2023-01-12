@@ -19,8 +19,8 @@ function division() {
 }
 
 function more_Math() {
-    var simple_Math = 1 + 2;
-    document.getElementById("Math").innerHTML = "48 / 6 = " + simple_Math;
+    var simple_Math = (1 + 2) * / 2 - 5;
+    document.getElementById("Math").innerHTML = "1 plus 2, multiplied by 10, diided in half  and then subtracted by 5 equals= " + simple_Math;
 }
 
 function modulus_Operator() {
@@ -28,3 +28,6 @@ function modulus_Operator() {
     document.getElementById("Math").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_Math;
 }
 
+var X = 5;
+X++;
+document.write(X);
