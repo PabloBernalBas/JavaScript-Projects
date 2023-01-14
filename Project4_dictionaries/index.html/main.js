@@ -6,4 +6,5 @@ function my_Dictionary() {
         Age:5,
         Sound:"Bark!"
     }
+    document.getElementById("Dictionary").innerHTML=Animal.Sound;
 }
