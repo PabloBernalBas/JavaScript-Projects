@@ -6,5 +6,5 @@ function Dictionary() {
         Age:5,
         Sound:"Bark!"
     }
-    document.getElementById("Dictionary").innerHTML=Animal.Sound;
+    document.getElementById("Dictionary").innerHTML=Animal.Breed;
 }
