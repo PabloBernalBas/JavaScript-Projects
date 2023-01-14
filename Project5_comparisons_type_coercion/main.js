@@ -1,5 +1,9 @@
 document.write(typeof "Word");
 
+document.write("<br>");
+
+document.write(2E310);
+
 function my_Function() {
     document.getElementById("Test").innerHTML = 0/0;
 }
