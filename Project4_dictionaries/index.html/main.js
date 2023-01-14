@@ -1,4 +1,4 @@
-function Dictionary() {
+function my_Dictionary() {
     var Animal = {
         Species:"Dog",
         Color:"Black",
