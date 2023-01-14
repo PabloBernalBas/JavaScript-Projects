@@ -6,5 +6,6 @@ function my_Dictionary() {
         Age:5,
         Sound:"Bark!"
     };
+    delete Animal.Breed;
     document.getElementById("Dictionary").innerHTML=Animal.Breed;
 }
