@@ -36,6 +36,12 @@ document.write("<br>");
 
 document.write(5 + "0");
 
+document.write("<br>");
+
 if (x = 5, y = 2) {
     console.log(x < y );
 }
+
+document.write("<br>");
+
+document.write(3==4);
