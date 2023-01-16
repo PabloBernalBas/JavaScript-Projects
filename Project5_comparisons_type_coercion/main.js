@@ -13,10 +13,21 @@ function my_Function() {
 }
 
 function my_Function1() {
-    document.getElementById("Test").innerHTML = isNaN('Is this True');
+    document.getElementById("Test1").innerHTML = isNaN('Is this True');
 }
 
 function my_Function2() {
-    document.getElementById("Test").innerHTML = isNaN('34');
+    document.getElementById("Test2").innerHTML = isNaN('34');
 }
 
+document.write("<br>");
+
+document.write(3<10)
+
+document.write("<br>");
+
+document.write(3>10)
+
+document.write("<br>");
+
+console.log(2 + 2);
