@@ -31,3 +31,11 @@ document.write(3>10)
 document.write("<br>");
 
 console.log(2 + 2);
+
+document.write("<br>");
+
+document.write(5 + "0");
+
+if (x = 5, y = 2) {
+    console.log(x < y );
+}
