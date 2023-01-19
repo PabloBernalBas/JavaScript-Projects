@@ -4,5 +4,3 @@ function Age_Function() {
     Can_vote = (Vote < 18) ? "You are not old enough":"You are old enough"
     document.getElementById("Age").innerHTML=Can_vote + ".";
 }
-
-
