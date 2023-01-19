@@ -45,3 +45,27 @@ if (x = 5, y = 2) {
 document.write("<br>");
 
 document.write(3==4);
+
+x=1
+y=1
+document.write(x===y);
+
+document.write("<br>");
+
+x=1
+y="2"
+document.write(x===y);
+
+document.write("<br>");
+
+x=1
+y="1"
+document.write(x===y);
+
+document.write("<br>");
+
+x=1
+y=2
+document.write(x===y);
+
+document.write("<br>");
