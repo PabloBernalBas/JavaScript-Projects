@@ -32,3 +32,19 @@ function Add_var2() {
 
 Add_var1();//x it is define (example from Scope but using string) It shouldn't work
 Add_var2();
+
+
+
+function checkTime() {
+    var currentTime = new Date().getHours();
+    if (currentTime < 12) {
+        console.log("Good morning!");
+        document.getElementById("Greeting").innerHTML = "Have a good day.";
+    } else if (currentTime < 18) {
+        console.log("Good afternoon!");
+        document.getElementById("Greeting").innerHTML = "Enjoy your afternoon.";
+    } else {
+        console.log("Good evening!");
+        document.getElementById("Greeting").innerHTML = "How was your day?.";
+    }
+}
