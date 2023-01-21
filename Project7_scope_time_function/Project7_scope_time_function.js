@@ -33,7 +33,7 @@ function Add_var2() {
 Add_var1();//x it is define (example from Scope but using string) It shouldn't work
 Add_var2();
 
-
+//ID Attribute and onclick
 
 function checkTime() {
     var currentTime = new Date().getHours();
@@ -48,3 +48,6 @@ function checkTime() {
         document.getElementById("Greeting").innerHTML = "How was your day?.";
     }
 }
+
+//IF and Else 
+
