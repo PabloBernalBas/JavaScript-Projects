@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,17 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project7_scope_time_functionProject7_scope_time_function</title>
     <script src="Project7_scope_time_function.js"></script>
+    <style> 
+        button { 
+        font-size: large;
+        height: 100px; 
+        width: 200px; 
+        } 
+    </style> 
 </head>
-<body onload="checkTime()">
+<body onload="checkTime()" background="./background.jpg">
     <div>
-        <button id="Greeting" onclick="get_Date()">Check Time</button>
+    	<label>Insert the current time and date:</label>
+        <input type="datetime-local" id="time" min="00:00" max="23:59"/>
+        <br>
     </div>
     <br>
     <div>
         <h1 id="greeting"></h1>
-        <button onclick="checkTime()">Check Time</button>
+        <button onclick="checkTime()">Click here if an image doesn't shows up.</button>
         <br>
-        <img id="image" style="height:500px; width:500px;">       
+        <img id="image" style="height:500px; width:500px;"> 
+        <br>
+        <button id="Greeting" onclick="get_Date()">Click for a Greetings.</button>      
     </div>
 </body>
 </html>
