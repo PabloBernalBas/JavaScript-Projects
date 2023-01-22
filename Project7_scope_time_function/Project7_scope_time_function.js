@@ -35,7 +35,7 @@ Add_var2();
 
 //ID Attribute and onclick
 
-function checkTime() {
+function get_Date() {
     var currentTime = new Date().getHours();
     if (currentTime < 12) {
         console.log("Good morning!");
@@ -51,3 +51,28 @@ function checkTime() {
 
 //IF and Else 
 
+function checkTime() {
+    var currentTime = new Date().getHours();
+    var greeting;
+    var timeOfDay;
+    if (currentTime < 12) {
+        greeting = "Good morning";
+        timeOfDay = "morning";
+    } else if (currentTime < 18) {
+        greeting = "Good afternoon";
+        timeOfDay = "afternoon";
+    } else {
+        greeting = "Good evening";
+        timeOfDay = "evening";
+    }
+    var image;
+    if(timeOfDay=="morning"){
+        image = "./photo-1.jpg"
+    } else if(timeOfDay=="afternoon"){
+        image = "./photo-3.jpg"
+    } else {
+        image = "./photo-2.jpg"
+    }
+    document.getElementById("greeting").innerHTML = greeting;
+    document.getElementById("image").src = image;
+}
