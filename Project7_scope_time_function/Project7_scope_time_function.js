@@ -1,4 +1,4 @@
-//Global 
+//Global variable
 
 var x = "hello";
 
@@ -24,7 +24,7 @@ console.log(a + b); // error
 
 function Add_var1() {
 	var y = "World"; //maybe should use different variable??
-  console.log("Hello" + y);
+  console.log("Hello " + y);
 }
 function Add_var2() {
     console.log(y + "Hello.")
