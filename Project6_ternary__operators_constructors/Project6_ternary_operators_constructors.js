@@ -1,5 +1,7 @@
-var up = document.getElementById('UP');//defining the variable and giving a name inside a method
-var down = document.getElementById('DOWN'); //defining the variable and giving a name inside a method
+var up = document.getElementById('UP');//defining the variables and giving a name and return a method
+var greeting; 
+var down = document.getElementById('DOWN'); //defining the variables and giving a name and return a method
+var greeting; 
     up.innerHTML = "Click on the button, to call nested function.";    
         function fun1(a) { //defining a function and give it a name and value
         function fun2(b) { //defining a function and give it a name and value

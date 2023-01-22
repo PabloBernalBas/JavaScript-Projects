@@ -1,33 +1,33 @@
 //Global variable
 
-var x = "hello";
+var x = "hello"; //defining value to a variable
 
-function global() {
-    console.log(x);
+function global() { //defining a function and give it a name
+    console.log(x); //request return value in console
 }
 
 global(); // hello
 
 // Local variable
 
-var a = "hello";
+var a = "hello "; //defining a function and give it a name
 
-function local() {
-    let b = "World"
-    console.log(a + b); //give result
+function local() { //defining a function and give it a name
+    let b = "World" //defining value to a variable
+    console.log(a + b); //request return value in console, give result
 }
 
 local();
-console.log(a + b); // error
+console.log(a + b); //request return value in console, error
 
 
 
-function Add_var1() {
+function Add_var1() { //defining a function and give it a name
 	var y = "World"; //maybe should use different variable??
-  console.log("Hello " + y);
+  console.log("Hello " + y); //request return value in console
 }
-function Add_var2() {
-    console.log(y + "Hello.")
+function Add_var2() { //defining a function and give it a name
+    console.log(y + "Hello.") //request return value in console
 }
 
 Add_var1();//x it is define (example from Scope but using string) It shouldn't work
@@ -35,44 +35,45 @@ Add_var2();
 
 //ID Attribute and onclick
 
-function get_Date() {
-    var currentTime = new Date().getHours();
-    if (currentTime < 12) {
-        console.log("Good morning!");
-        document.getElementById("Greeting").innerHTML = "Have a good day.";
-    } else if (currentTime < 18) {
-        console.log("Good afternoon!");
-        document.getElementById("Greeting").innerHTML = "Enjoy your afternoon.";
-    } else {
-        console.log("Good evening!");
-        document.getElementById("Greeting").innerHTML = "How was your day?.";
+function get_Date() { //defining a function and give it a name
+    var currentTime = new Date().getHours(); //defining the variables and giving a name and return a method
+    var greeting; 
+    if (currentTime < 12) { //if statement
+        console.log("Good morning!"); //request return value in console
+        document.getElementById("Greeting").innerHTML = "Have a good day."; //return value in browser
+    } else if (currentTime < 18) { //else if statement
+        console.log("Good afternoon!"); //request return value in console
+        document.getElementById("Greeting").innerHTML = "Enjoy your afternoon."; //return value in browser
+    } else { //else statement
+        console.log("Good evening!");  //request return value in console
+        document.getElementById("Greeting").innerHTML = "How was your day?."; //return value in browser
     }
 }
 
 //IF and Else 
 
-function checkTime() {
-    var currentTime = new Date().getHours();
-    var greeting;
-    var timeOfDay;
-    if (currentTime < 12) {
+function checkTime() { //defining a function and give it a name
+    var currentTime = new Date().getHours(); //defining the variables and giving a name and return a method
+    var greeting; 
+    var timeOfDay; 
+    if (currentTime < 12) { //if statement
         greeting = "Good morning";
         timeOfDay = "morning";
-    } else if (currentTime < 18) {
+    } else if (currentTime < 18) { //else if statement
         greeting = "Good afternoon";
         timeOfDay = "afternoon";
-    } else {
+    } else { //else statement
         greeting = "Good evening";
         timeOfDay = "evening";
     }
-    var image;
-    if(timeOfDay=="morning"){
+    var image; 
+    if(timeOfDay=="morning"){ //if statement
         image = "./photo-1.jpg"
-    } else if(timeOfDay=="afternoon"){
+    } else if(timeOfDay=="afternoon"){ //else if statement
         image = "./photo-3.jpg"
-    } else {
+    } else { //else statement
         image = "./photo-2.jpg"
     }
-    document.getElementById("greeting").innerHTML = greeting;
-    document.getElementById("image").src = image;
+    document.getElementById("greeting").innerHTML = greeting; //method to returns and element object, which property matches with the string.
+    document.getElementById("image").src = image; //method to returns and element object, which property matches with an image.
 }
