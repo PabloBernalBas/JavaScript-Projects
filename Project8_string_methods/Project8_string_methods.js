@@ -14,4 +14,20 @@ function slice_Method() {
     document.getElementById("Slice").innerHTML = Section;
 }
 
-let Sentence = 
+document.write("<br>")
+
+var Phrase = "I have made this function to get all sentence together."
+document.write(Phrase.toUpperCase());
+
+document.write("<br>")
+
+var text = "I have made this function to get all sentence together."
+var position = text.search("sentence");
+document.getElementById("search").innerHTML = position;
+
+document.write("<br>")
+
+function string_Method() {
+    var x = 214;
+    document.getElementById("Number_to_String").innerHTML = x.toString();
+}
