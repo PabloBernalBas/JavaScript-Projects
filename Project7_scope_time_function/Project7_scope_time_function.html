@@ -16,6 +16,11 @@
 </head>
 <body onload="checkTime()" background="./background.jpg">
     <div>
+        <p id="Time_of_day"></p>
+        <button onclick="Time_function ()">Click here to get the time.</button>
+    </div>
+    <br>
+    <div>
     	<label>Insert the current time and date:</label>
         <input type="datetime-local" id="time" min="00:00" max="23:59"/>
         <br>
@@ -24,6 +29,7 @@
     <div>
         <h1 id="greeting"></h1>
         <button onclick="checkTime()">Click here if an image doesn't shows up.</button>
+        <br>
         <br>
         <img id="image" style="height:500px; width:500px;"> 
         <br>

@@ -33,6 +33,25 @@ function Add_var2() { //defining a function and give it a name
 Add_var1();//x it is define (example from Scope but using string) It shouldn't work
 Add_var2();
 
+//Time of the day Function
+
+function Time_function () {
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time < 12 == Time > 0) { 
+        Reply = "It is morning time!"; 
+    } 
+    else if (Time > 12 == Time < 18) { 
+        Reply = "It is the afternoon.";
+    }
+    else { 
+        Reply = "It is evening time.";
+    }
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
+
+document.write("<br>")
+
 //ID Attribute and onclick
 
 function get_Date() { //defining a function and give it a name
@@ -77,3 +96,4 @@ function checkTime() { //defining a function and give it a name
     document.getElementById("greeting").innerHTML = greeting; //method to returns and element object, which property matches with the string.
     document.getElementById("image").src = image; //method to returns and element object, which property matches with an image.
 }
+
