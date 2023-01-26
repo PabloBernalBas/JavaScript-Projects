@@ -31,3 +31,10 @@ function string_Method() {
     var x = 214;
     document.getElementById("Number_to_String").innerHTML = x.toString();
 }
+
+document.write("<br>")
+
+function precision_Method() {
+    var x = 2145.21655886321189;
+    document.getElementById("Precision").innerHTML = x.toPrecision(6);
+}
