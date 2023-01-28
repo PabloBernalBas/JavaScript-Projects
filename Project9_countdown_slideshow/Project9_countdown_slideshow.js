@@ -14,7 +14,7 @@ function countdown() {
 
 document.write("<br>")
 
-let slideIndex =1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 //Next/previous controls
@@ -32,7 +32,7 @@ function showSlides(n) {
     let dots =document.getElementsByClassName("dot");
     if (n > slides.length)  {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
-    for (1 = 0; i < slides.length; i++) {
+    for (i = 0; i < slides.length; i++) {
         slides[i].style.display= "none";
     }
     for (i = 0; i < dots.length; i++) {
