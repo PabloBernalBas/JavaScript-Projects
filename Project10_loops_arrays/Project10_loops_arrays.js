@@ -26,3 +26,14 @@ function for_Loop() {
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
+
+document.write("<br>")
+
+function Array_Function () {
+    var Season_Pictures  = [];
+    Season_Pictures[0] = "spring";
+    Season_Pictures[1] = "summer";
+    Season_Pictures[2] = "autumn";
+    Season_Pictures[3] = "winter";
+    document.getElementById("Array").innerHTML = "In this picture, the season is " + Season_Pictures[1] + ".";
+}
