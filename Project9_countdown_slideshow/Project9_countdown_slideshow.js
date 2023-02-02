@@ -15,6 +15,9 @@ function countdown() {
 }
 
 document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
 
 let slideIndex = 1;
 showSlides(slideIndex);
