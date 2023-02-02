@@ -4,9 +4,11 @@ function countdown() {
     function tick() {
         seconds = seconds - 1;
         timer.innerHTML = seconds;
-        setTimeout(tick, 1000);
+        var time = setTimeout(tick, 1000);
     if(seconds == -1) {
         window.alert("Times's up!");
+        clearTimeout(time);
+        timer.innerHTML="";
         }
     }
     tick();
