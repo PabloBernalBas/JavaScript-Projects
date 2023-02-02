@@ -56,3 +56,17 @@ document.write(my_name)
 	document.write(my_name)
   }
 
+  document.write("<br>")
+
+  function return_function(a, b){
+    var r;
+    a = 5;
+    b = 3;
+    r = a * b;
+    return(r);
+  }
+  
+  let result = return_function();
+  console.log(result);
+
+  document.write("<br>")
