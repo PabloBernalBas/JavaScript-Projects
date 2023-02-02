@@ -46,3 +46,13 @@ function constant_function() {
     Musical_Instrument.price = "£15000";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type +  " was " + Musical_Instrument.price;
 }
+
+document.write("<br>")
+
+var my_name = "Mr Anderson";
+document.write(my_name)
+	{
+  let my_name = ", AKA 'Neo'.";
+	document.write(my_name)
+  }
+
