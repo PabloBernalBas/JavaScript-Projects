@@ -1,3 +1,4 @@
+//Loop
 function Call_Loop() { //defining a function and give it a name
     var Digit = "";  //giving variable a name and value
     var x = 10;  //giving variable a name and value
@@ -11,12 +12,14 @@ function Call_Loop() { //defining a function and give it a name
 document.write("<br>") //break for cleaner view
 document.write("<br>") //break for cleaner view
 
+//Length
 var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  //giving variable a name and value
 var len = txt.length;  //giving variable a name and value
 document.write(len)
 
 document.write("<br>") //break for cleaner view
 
+//var 
 var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];  //giving variable a name and array as value
 var Content = "";  //giving variable a name and value
 var Y; //giving variable a name
@@ -29,9 +32,10 @@ function for_Loop() { //defining a function and give it a name
 
 document.write("<br>") //break for cleaner view
 
+//Array 
 function Array_Function () { //defining a function and give it a name
     var Season_Pictures  = []; //giving variable a name and value
-    Season_Pictures[0] = "spring"; //giving object name and value
+    Season_Pictures[0] = "spring"; //giving object inside the array name and value
     Season_Pictures[1] = "summer"; //""
     Season_Pictures[2] = "autumn"; //""
     Season_Pictures[3] = "winter"; //""
@@ -40,6 +44,7 @@ function Array_Function () { //defining a function and give it a name
 
 document.write("<br>") //break for cleaner view //break for cleaner view
 
+//constant
 function constant_function() { //defining a function and give it a name
     const Musical_Instrument = {type: "violin", brand:"Stradivarius", color:"blue"};
     Musical_Instrument.color = "Oak";
@@ -49,6 +54,7 @@ function constant_function() { //defining a function and give it a name
 
 document.write("<br>") //break for cleaner view
 
+//var and let 
 var my_name = "Mr Anderson";  //giving variable a name and value
 document.write(my_name)
 	{
@@ -58,6 +64,7 @@ document.write(my_name)
 
 document.write("<br>") //break for cleaner view
 
+//return
 function return_function(a, b){ //defining a function and give it a name and variable
     var r;
     a = 5; //giving value to variable
@@ -70,7 +77,8 @@ console.log(result);  //return value in console
 
 document.write("<br>") //break for cleaner view
 
-let car = { //naming an object
+//object creation
+let car = {
     make: "Dodge", //giving properties name and value
     model: "Viper", //""
     year: "2021", //""
@@ -83,13 +91,14 @@ document.getElementById("object").innerHTML= car.description();  //return value 
 
 document.write("<br>") //break for cleaner view
 
-const cars = ["BMW", "Volvo", "Saab", "Ford"]; //
-let text = "";
+//break statement
+const cars = ["BMW", "Volvo", "Saab", "Ford"]; //giving constant keyword name and array value
+let text = ""; 
 
-list: {
+list: { 
     text += cars[0] + "<br>"; 
     text += cars[1] + "<br>"; 
-    break list;
+    break list; 
     text += cars[2] + "<br>"; 
     text += cars[3] + "<br>"; 
     }
@@ -98,6 +107,7 @@ document.getElementById("demo").innerHTML = text;  //return value in browser
 
 document.write("<br>") //break for cleaner view
 
+//continue statement
 let data = '';
 
 for (let i = 0; i < 10; i++) {
