@@ -1,6 +1,6 @@
 function Team_Function() {
     var Team_Output;
-    var Teams = document.getElementById("Team_Input").ariaValueMax;
+    var Teams = document.getElementById("Team_Input").value;
     var Team_String = " is a great team!";
     switch(Teams) {
         case "Red Bull":
@@ -34,7 +34,8 @@ function Team_Function() {
             Team_Output = "Toro Rosso" + Team_String;
         break;
         default:
-        Team_Output = "Please enter a name of the F1 Team exactly as written on the list above list.";
-    document.getElementById("Output").innerHTML= Team_Output;
+        Team_Output = "Enter a name of the F1 Team exactly as written on the list above list.";
+    document.getElementById("Formula1").innerHTML= Team_Output;
     }
+console.log(Team_Output)
 }
