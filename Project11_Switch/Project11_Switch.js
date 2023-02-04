@@ -35,7 +35,7 @@ function Team_Function() {
         break;
         default:
         Team_Output = "Enter a name of the F1 Team exactly as written on the list above list.";
-    document.getElementById("Formula1").innerHTML= Team_Output;
+        document.getElementById("Formula1").innerHTML = Team_Output;
     }
-console.log(Team_Output)
+  console.log(Team_Output)
 }
