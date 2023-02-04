@@ -12,11 +12,11 @@
     <h2>Basic contact information.</h2>
     <br>
     <div>
-        <form action="" method="post">
-            <input class="rsvp" type="text" value="First Name">
-            <input class="rsvp" type="text" value="Last Name">
-            <input class="rsvp" type="text" value="Email Name">
-            <input class="rsvp" type="text" value="Phone Number">
+        <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+            <input class="rsvp" type="text" value="First Name" required="required" name="fname">
+            <input class="rsvp" type="text" value="Last Name" required="required" name="lname">
+            <input class="rsvp" type="text" value="Email" required="required" name="email">
+            <input class="rsvp" type="text" value="Phone Number" required="required" name="phonenumber">
             <br>
             <br>
             <textarea id="freeform" name="freeform" rows="4" cols="50">
